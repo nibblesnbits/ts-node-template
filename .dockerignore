@@ -1,0 +1,10 @@
+dist/
+.editorconfig
+.gitignore
+jest.config.ts
+nodemon.json
+TODO.md
+.vscode/
+.env*
+node_modules/
+src/**/*.(test|spec).[tj]s

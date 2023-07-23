@@ -1,0 +1,15 @@
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
+
+node_modules/
+
+# Ignore k8s secret files
+*.secret.yml
+*.secret.yaml
+*.local.yml
+*.local.yaml
+
+.DS_Store
