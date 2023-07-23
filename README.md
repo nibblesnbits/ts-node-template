@@ -17,7 +17,7 @@ To deploy this project to a local minkube cluster, first ensure your terminal is
 eval $(minikube docker-env)
 ```
 
-Then you may run the local build script, `./docker-build.sh`.  This will build and push the image to minikube. (*This `Dockerfile` includes the use of a `.npmrc` file as a secret in the build as noted by [this guide](), hence the convenience script for building.*)
+Then you may run the local build script, `./docker-build.sh`.  This will build and push the image to minikube. (*This `Dockerfile` includes the use of a `.npmrc` file as a secret in the build as noted by [this guide](https://docs.npmjs.com/docker-and-private-modules), hence the convenience script for building.*)
 
 
 A Helm chart is provided in this project for simplified local deployment as well.  In order to use it, you must create a file at the root of the project named `helm.values.local.yaml`.  Here is an example contents:
